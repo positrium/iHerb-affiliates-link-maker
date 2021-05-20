@@ -2,6 +2,10 @@
 
 ```bash
 $ npm install
+
+or 
+
+$ yarn install
 ```
 
 # build
@@ -10,11 +14,7 @@ This create dist-dir on root path
 and you can look chrome extension addon files.
 
 ```bash
-$ npx webpack --mode production
-
-or
-
-$ webpack build --mode production
+$ yarn run webpack build
 ```
 
 # watch
@@ -22,9 +22,5 @@ $ webpack build --mode production
 watch and build when source files modified.
 
 ```bash
-$ webpack --watch
- 
-or
-
-$ webpack --watch --mode production
+$ yarn run webpack --watch
 ```
