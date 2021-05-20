@@ -1,0 +1,35 @@
+{
+  "name": "iHerb Affiliates Link Maker",
+  "description": "Quickly create iHerb Affiliate links while browsing iHerb.",
+  "version": "0.1.1",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "permissions": [
+    "background",
+    "debugger",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.iherb.com/"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "menuicon.png",
+      "32": "menuicon.png",
+      "48": "menuicon.png",
+      "128": "menuicon.png"
+    },
+    "default_title": "iHerb Affiliates Link Maker"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "pluginface.png",
+    "32": "pluginface.png",
+    "48": "pluginface.png",
+    "128": "pluginface.png"
+  }
+}
